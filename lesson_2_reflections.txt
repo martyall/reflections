@@ -2,4 +2,7 @@ what happens when you initialize a new repository? Why do you need to do it?
 
 When you initialize a new repo, a bunch of dot files get created to start
 managing repo contents. You need to do it becasue otherwise the direcotry
-doesnt respond to git commands.
+d3oesnt respond to git commands.
+
+How do the diagrams help you vizualize the branch structure?
+The diagrams help you see which changes are going to affect which versions (branch heads). If one commit is not an ancestor of another in the same branch, this commit will have no effect whatsoever on the version maintained by that branch. 
